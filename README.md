@@ -2,6 +2,7 @@
 ### Core Projects
 - **[Univer Leak Tester](链接)** [Hybrid Automation Test Platform (C# / Python / LonWorks)]
   <p>
+    
   - **Tech Stack:** `C# (32-bit)`, `Python (64-bit)`, `LonWorks`, `PyQt`
   - **Key Contributions:**
     - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
@@ -28,7 +29,7 @@
   - **Tech Stack:** `C# (32-bit)`, `Python (64-bit)`, `LonWorks`, `PyQt`
   - **Key Contributions:**
     - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
-    - **Modular Configuration:** Implemented `.seq` driven test sequences and drag-and-drop `.ui` interface generation for rapid UUT deployment.
+    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
     - **Automated Validation:** Integrated robust Pass/Fail logic ensuring data consistency and rigorous testing cycles.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
   <br>
