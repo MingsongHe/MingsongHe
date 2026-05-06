@@ -1,6 +1,33 @@
 ## Hi there 👋
 ### Core Projects
 - **[Univer Leak Tester](链接)**: Establish communication with the UUT using C# (communication method: LonWorks, 32-bit). Create a working interface using Python (64-bit) to read and write data (control) and perform pass/fail checks. Test steps and parameters are written in a .seq file, and .ui files are created via drag-and-drop to accommodate different UUT control settings. [Because of strict confidentiality agreements with program users, no further related displays are allowed here.]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="项目预览">
+
+### 🚀 Core Projects
+
+<details>
+  <summary><b>Hybrid Automation Test Platform (C# / Python / LonWorks)</b></summary>
+  <p>
+  
+  - **Tech Stack:** `C# (32-bit)`, `Python (64-bit)`, `LonWorks`, `PyQt`
+  - **Key Contributions:**
+    - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
+    - **Modular Configuration:** Implemented `.seq` driven test sequences and drag-and-drop `.ui` interface generation for rapid UUT deployment.
+    - **Automated Validation:** Integrated robust Pass/Fail logic ensuring data consistency and rigorous testing cycles.
+  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+  <br>
+  <img src="https://githubusercontent.com" width="500" alt="System Preview">
+  </p>
+</details>
+
+<details>
+  <summary><b>Project Name 2 (Brief One-line Description)</b></summary>
+  <p>
+  
+  - **Tech Stack:** `Your Tech`
+  - **Key Contributions:** Detail 1, Detail 2.
+  </p>
+</details>
+
 - **[项目 B 名称](链接)**: 基于 Python 的自动化脚本。
 
 ### 🛠️ 工具轮子 (Open Source Tools)
