@@ -9,8 +9,7 @@
     - **Modular Configuration:** Implemented `.seq` driven test sequences setting. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
     - **Automated Validation:** Integrated robust Pass/Fail logic ensuring data consistency and rigorous testing cycles.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
-    <br>
-    <img src="https://githubusercontent.com" width="500" alt="System Preview">
+    
   </p>
 - <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="项目预览">
 <img src="https://githubusercontent.com" width="500" alt="System Preview">
