@@ -1,6 +1,6 @@
 ## Hi there 👋
 ### Core Projects
-- **[Univer Leak Tester](链接)** [Hybrid Automation Test Platform (C# / Python / LonWorks)]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="项目预览">
+- **[Univer Leak Tester](链接)** [Hybrid Automation Test Platform (C++ / Python / LonWorks)]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
     
   - **Tech Stack:** `C# (32-bit)`, `Python (64-bit)`, `LonWorks`, `PyQt`
@@ -11,7 +11,6 @@
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
-- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="项目预览">
 
 - **[Hybrid Test Platform]** <img src="https://shields.io"> **Architecture:** Bridged **32-bit/64-bit** interoperability | **Efficiency:** **.seq/.ui** configuration for rapid deployment | **Result:** **Automated Pass/Fail** validation | 🔒 *NDA applied*
 
