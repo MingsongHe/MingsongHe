@@ -4,6 +4,9 @@
 
 - **[Hybrid Test Platform]** <img src="https://shields.io"> **Architecture:** Bridged **32-bit/64-bit** interoperability | **Efficiency:** **.seq/.ui** configuration for rapid deployment | **Result:** **Automated Pass/Fail** validation | 🔒 *NDA applied*
 
+- **[Hybrid Automation Test System]** — <img src="https://shields.io"> `C# (32-bit)` / `Python (64-bit)` / `LonWorks` | <img src="https://shields.io"> **Resolved 32/64-bit Cross-Architecture** communication | <img src="https://shields.io"> **.seq & .ui-based** modular deployment | <img src="https://shields.io"> **Robust Pass/Fail** logic integration
+
+
 
 ### 🚀 Core Projects
 
