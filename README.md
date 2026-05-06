@@ -1,6 +1,6 @@
 ## Hi there 👋
 ### Core Projects
-- <summary><b>**[Univer Leak Tester](链接)** [Hybrid Automation Test Platform (C# / Python / LonWorks)]</b></summary>
+- **[Univer Leak Tester](链接)** [Hybrid Automation Test Platform (C# / Python / LonWorks)]
 - 
   <summary><b>[Univer Leak Tester](链接)Hybrid Automation Test Platform (C# / Python / LonWorks)</b></summary>
   <p>
