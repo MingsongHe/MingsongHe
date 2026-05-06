@@ -1,5 +1,5 @@
 ## Hi there 👋
-### 核心项目 (Core Projects)
+### Core Projects
 - **[项目 A 名称](链接)**: 使用 React 开发的高性能商城。 [在线预览]
 - **[项目 B 名称](链接)**: 基于 Python 的自动化脚本。
 
