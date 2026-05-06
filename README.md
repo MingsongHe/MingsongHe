@@ -6,5 +6,5 @@
 ### 🛠️ 工具轮子 (Open Source Tools)
 - **[项目 C 名称](链接)**: 一个轻量级的 CSS 框架。
 - <br>
-  <img src="[https://your-image-url.com](https://github.com/MingsongHe/ADataEdit/blob/main/PCBA%20Family%20all%20include%20Main%20UI%20P02.jpg)" width="400" alt="项目预览">
+  <img src="https://raw.githubusercontent.com/MingsongHe/ADataEdit/refs/heads/main/PCBA%20Family%20all%20include%20Main%20UI%20P02.jpg" width="400" alt="项目预览">
 
