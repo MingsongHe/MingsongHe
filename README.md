@@ -7,7 +7,7 @@
     - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
     - **Modular Configuration:** Implemented `.seq` driven test sequences and drag-and-drop `.ui` interface generation for rapid UUT deployment.
     - **Automated Validation:** Integrated robust Pass/Fail logic ensuring data consistency and rigorous testing cycles.
-  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="项目预览">
+  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
   <br>
   </p>
 - <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="项目预览">
