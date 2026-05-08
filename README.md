@@ -12,9 +12,17 @@
     
   </p>
 
-- **[Hybrid Test Platform]** <img src="https://shields.io"> **Architecture:** Bridged **32-bit/64-bit** interoperability | **Efficiency:** **.seq/.ui** configuration for rapid deployment | **Result:** **Automated Pass/Fail** validation | 🔒 *NDA applied*
-
-- **[Hybrid Automation Test System]** — <img src="https://shields.io"> `C# (32-bit)` / `Python (64-bit)` / `LonWorks` | <img src="https://shields.io"> **Resolved 32/64-bit Cross-Architecture** communication | <img src="https://shields.io"> **.seq & .ui-based** modular deployment | <img src="https://shields.io"> **Robust Pass/Fail** logic integration
+- **[Lonwindows Platform](链接)** [Hybrid Automation Test Platform (C++ / Python / LonWorks)]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
+  <p>
+    
+  - **Tech Stack:** `C++ (32-bit)`, `Python (32-bit)`, `LonWorks`, `PyQt`
+  - **Key Contributions:**
+    - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
+    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
+    - **Automated Validation:** Integrated robust Pass/Fail logic ensuring data consistency and rigorous testing cycles.
+  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+    
+  </p>
 
 
 
