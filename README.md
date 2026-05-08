@@ -4,9 +4,9 @@
     
   - **Tech Stack:** `C++ (32-bit)`, `Python (32-bit)`, `LonWorks`, `PyQt`
   - **Key Contributions:**
-    - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
-    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
-    - **Automated Validation:** Integrated robust Pass/Fail logic ensuring data consistency and rigorous testing cycles.
+    - **Reverse engineering the client's C++ code → protocol:** The client couldn't find the communication protocol from 20 years ago either, so the project was completed by analyzing the C++ code.
+    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily.Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
+    - **Automated Verification:** Data sampling is completed in the background thread. The pass/fail logic is handled in the foreground, resulting in a complete test report.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
@@ -25,7 +25,7 @@
 
 
 
-# 🚀 Core Projects
+#### 🚀 Core Projects
 
 <details>
   <summary><b>Hybrid Automation Test Platform (C# / Python / LonWorks)</b></summary>
