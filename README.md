@@ -23,9 +23,7 @@
     
   </p>
 
-
-
-#### 🚀 Core Projects
+##### 🚀 Click to expand for more
 
 <details>
   <summary><b>Hybrid Automation Test Platform (C# / Python / LonWorks)</b></summary>
