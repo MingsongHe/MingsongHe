@@ -1,8 +1,8 @@
-### 🚀 Core Projects
+#### 🚀 Core Projects
 - **[Lonwindows Platform](链接)** [Hybrid Automation Test Platform (C++ / Python / LonWorks)]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
     
-  - **Tech Stack:** `C++ (32-bit)`, `Python (32-bit)`, `LonWorks`, `PyQt`
+  - **Tech Stack:** `C++ (32-bit)`, `Python (32-bit)`, `PyQt`, `LonWorks`, `RS232`
   - **Key Contributions:**
     - **Reverse engineering the client's C++ code → protocol:** The client couldn't find the communication protocol from 20 years ago either, so the project was completed by analyzing the C++ code.
     - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
@@ -11,10 +11,10 @@
     
   </p>
 
-- **[Lonwindows Platform](链接)** [Hybrid Automation Test Platform (C++ / Python / LonWorks)]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
+- **[Universal Leak Tester](链接)** [Hybrid Automation Test Platform (C# / Python / EtherCAT / LonWorks)]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
     
-  - **Tech Stack:** `C++ (32-bit)`, `Python (32-bit)`, `LonWorks`, `PyQt`
+  - **Tech Stack:** `Python`, `C# (32-bit)`, `TwinCAT`, `LonWorks`, `EtherCAT`, `RS232`
   - **Key Contributions:**
     - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
     - **Modular Configuration:** Implemented `.seq` driven test sequences setting. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
