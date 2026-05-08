@@ -1,4 +1,3 @@
-## Hi there 👋
 ### 🚀 Core Projects
 - **[Lonwindows Platform](链接)** [Hybrid Automation Test Platform (C++ / Python / LonWorks)]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
