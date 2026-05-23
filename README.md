@@ -31,7 +31,19 @@
   - **Key Contributions:**
     - **Optimized Large-File Rendering:** Resolved UI lag when handling massive NC code files by implementing custom viewport clipping and GDI double-buffering, significantly reducing CPU usage and memory footprint.
     - **Reliable RS-232 Communication:** Implemented dynamic buffering and custom frame validation, overriding background message handling to ensure full-duplex data integrity in noisy shop-floor environments.
-    - **Robust "Undo" Mechanism:**  Built a multi-level command-pattern undo/redo manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
+    - **Robust "Undo" Mechanism:** Built a multi-level command-pattern undo/redo manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
+    
+  </p>
+
+  - **[JinRay Test Platform](链接)** [Configurable Multi-Device Test System] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
+  <p>
+    
+  - **Tech Stack:** `Python`, `TwinCAT (ADS)`, `EtherCAT`, `pyads` `RS-232 Serial`, `Multithreading`
+  - **Key Achievement:** Built a drag-and-drop UI editor allowing operators to configure valves, MFCs, LEDs, and I/O channels without code changes — enabling a single platform to test multiple device variants.
+  - **Technical Challenges & Solutions:**
+    - **Visual UI editor for test configuration:** Implemented drag-and-drop editor where users place Valve/MFC/LED widgets onto a background schematic. Widgets save position, object name, and display label to JSON — regenerated on load. Supports big-picture mode with scrollable background.
+    - **Hardware-agnostic channel mapping:** Each widget binds to a PLC variable name via dropdown populated from Excel config. Used object name tracking to prevent duplicate assignments. Same platform adapts to different UUTs by swapping UI files.
+    - **Cross-type I/O handling:** Unified signal system dispatches 9 PLC data types (USINT/UINT/UDINT/INT/DINT/REAL/BOOL/INT24) to appropriate UI widgets. Special conversions for NI-9220 (±10V scaling) and NI-9208 (24-bit to 20mA).
     
   </p>
 
