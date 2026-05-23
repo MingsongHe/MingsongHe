@@ -23,6 +23,19 @@
     
   </p>
 
+  - **[NC Code Editor & Industrial Communication System](链接)** [Hybrid Automation Test Platform]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
+  <p>
+    
+  - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
+  - **Key Achievement:** Single-handedly built a full-featured text editor and industrial protocol stack, ensuring 24/7 data integrity on production lines.
+  - **Key Contributions:**
+    - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer). RS232 completes communication with the helium detector.
+    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
+    - **Automated Validation:** The test process can branch based on intermediate results. It integrates robust pass/fail logic. Test reports are provided in Excel, PDF, and XML formats, including test steps and screenshots.
+  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+    
+  </p>
+
 ##### 🚀 Click to expand for more
 
 <details>
