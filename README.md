@@ -50,7 +50,21 @@
 ##### 🚀 Click to expand for more
 
 <details>
-  <summary><b>A-H Monitor</b>`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`</summary>
+  <summary><b>Agilent Vacuum Pump Controller</b>[`LabVIEW`, `VISA`, `RS-232`, `State Machine`]</summary>
+  <p>
+  
+  - **Tech Stack:** `LabVIEW`, `VISA`, `RS-232`, `State Machine`
+  - **Key Technical Highlights:**
+    - **State machine architecture:** Implemented LabVIEW state machine with states: Init → Start → Stop → Reset → Status Monitoring. Ensures deterministic transitions and robust error handling.
+    - **RS-232 instrument control:** Used NI-VISA to communicate with Agilent vacuum pump over RS-232. Send commands for start, stop, and internal register reset operations.
+    - **Real-time status monitoring:** Continuously polls pump status (communication OK, accelerating, start complete) via serial. Displays current state on front panel.
+  <br>
+  <img src="https://githubusercontent.com" width="500" alt="System Preview">
+  </p>
+</details>
+
+<details>
+  <summary><b>A-H Monitor</b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]</summary>
   <p>
   
   - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`
@@ -63,20 +77,7 @@
   </p>
 </details>
 
-<details>
-  <summary><b>Project Name 2 (Brief One-line Description)</b></summary>
-  <p>
-  
-  - **Tech Stack:** `Your Tech`
-  - **Key Contributions:** Detail 1, Detail 2.
-  </p>
-</details>
-
-- **[项目 B 名称](链接)**: 基于 Python 的自动化脚本。
+- **[项目名称](链接)**:
 
 ### 🛠️ 工具轮子 (Open Source Tools)
-- **[项目 C 名称](链接)**: 一个轻量级的 CSS 框架。
-- <br>
-  <img src="https://raw.githubusercontent.com/MingsongHe/ADataEdit/refs/heads/main/PCBA%20Family%20all%20include%20Main%20UI%20P02.jpg" width="40" alt="项目预览">
-
-
+- **[项目名称](链接)**:
