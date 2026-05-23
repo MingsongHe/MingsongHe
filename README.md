@@ -8,7 +8,7 @@
     - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
     - **Automated Verification:** Data sampling is completed in the background thread. The pass/fail logic is handled in the foreground, resulting in a complete test report.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
-  - 
+    
   </p>
 - **[Universal Leak Tester](链接)** [Hybrid Automation Test Platform]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
@@ -19,7 +19,7 @@
     - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
     - **Automated Validation:** The test process can branch based on intermediate results. It integrates robust pass/fail logic. Test reports are provided in Excel, PDF, and XML formats, including test steps and screenshots.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
-  - 
+    
   </p>
 
   - **[NC Code Editor & Industrial Communication System](链接)** [Left area for NC editing, right area for graphics.]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
