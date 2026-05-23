@@ -67,13 +67,13 @@
   <summary><b>A-H Monitor</b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]</summary>
   <p>
   
-  - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI` <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Data%20Page.jpg" width="40" alt="UI P01">
+  - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI` <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01">
   - **Key Technical Highlights:**
     - **Multi-threaded data acquisition:** Dedicated thread reads voltage/current/AH/temperature via serial port at configurable intervals (0.017–3600 sec). Main thread triggers visual/audio alarms when thresholds exceeded.
     - **Flicker-free GDI visualization:** Off-screen DC double-buffering enables smooth real-time plotting. Users can drag the chart area (OnLButtonDown + OnMouseMove) to reposition the waveform overlay.
     - **Persistent configuration:** All alarm limits, baud rates, parity, handshaking modes saved to Windows registry via CWinApp::WriteProfileInt/String — auto-loaded on startup.
   <br>
-  <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Data%20Page.jpg" width="40" alt="UI P01">
+
   </p>
 </details>
 
