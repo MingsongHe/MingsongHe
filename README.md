@@ -14,11 +14,12 @@
 - **[Universal Leak Tester](链接)** [Hybrid Automation Test Platform]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
     
-  - **Tech Stack:** `Python`, `C#`, `TwinCAT`, `LonWorks`, `EtherCAT`, `RS232`
-  - **Key Contributions:**
-    - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer). RS232 completes communication with the helium detector.
-    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
-    - **Automated Validation:** The test process can branch based on intermediate results. It integrates robust pass/fail logic. Test reports are provided in Excel, PDF, and XML formats, including test steps and screenshots.
+  - **Tech Stack:** `Python`, `C#`, `LonWorks`, `TwinCAT`, `EtherCAT`, `RS232`, `Named Pipe`
+  - **Key Achievement:** Built a .seq-driven test engine with conditional branching (IF/ELSE/Interrupt). The 64-bit Python directly handles Ethercat communication' PCBA, while the 32-bit C# handles Lonworks communication' PCBA via adv32.dll and Name pipe.
+  - **Technical Challenges & Solutions:**
+    - **Conditional test flow engine:** Extended .seq JSON format with IF/ELSE, Interrupt, and Check points. Evaluates string/numeric/bool conditions in real-time, dynamically skipping or executing step blocks — enabling adaptive flows based on leak rate thresholds or detector status.
+    - **Dual-thread acquisition:** The data read/write thread processes data using Ethercat/LonWorks and PCBA, while the detector thread reads helium detector data at a frequency of 4Hz via RS-232. The main thread plots real-time trend graphs, controls test procedures, and determines Pass/Fail" and Generates Excel (trend charts + screenshots), HTML, and XML Multi-format report
+    - **Modular Configuration:** The program's .ui editor supports drag-and-drop .ui interface generation, intelligent parameter configuration, and facilitates the deployment of various specifications of devices under test, including "Pallet Test" and "Final Test".
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
