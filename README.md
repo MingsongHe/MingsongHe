@@ -21,14 +21,14 @@
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
-- **[NC Code Editor & Industrial Communication System](链接)** [Left area is a full-featured NC editor, right area for graphics]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
+- **[NC Code Editor & Industrial Communication System](链接)** [Left area is a full-featured NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
   - **Key Contributions:**
     - **Large-file rendering bottleneck:** Large-file rendering bottleneck: Custom viewport clipping + GDI double-buffering eliminated lag NC code, reducing memory footprint.%.
     - **Reliable RS-232 communication:** Implemented dynamic buffering and custom frame validation. Overrode message handling to achieve full-duplex data integrity in noisy shop-floor environments.
-    - **Undo user experience:** Built a multi-level command-pattern undo manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
+    - **"Undo" user experience:** Built a multi-level command-pattern "undo" manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
     
   </p>
 
