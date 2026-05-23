@@ -27,12 +27,14 @@
   <p>
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
-  - **Key Achievement:** Single-handedly built a full-featured text editor and industrial protocol stack, ensuring 24/7 data integrity on production lines.
-  - **Key Contributions:**
-    - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer). RS232 completes communication with the helium detector.
-    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
-    - **Automated Validation:** The test process can branch based on intermediate results. It integrates robust pass/fail logic. Test reports are provided in Excel, PDF, and XML formats, including test steps and screenshots.
-  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+  - ** Single-handedly built a full-featured text editor and industrial protocol stack, ensuring 24/7 data integrity on production lines.
+  - **Technical Challenges & Solutions:**
+
+- **Large-file rendering bottleneck:** Custom viewport clipping + GDI double-buffering eliminated lag for 50k+ lines of NC code, reducing memory footprint by 70%.
+
+- **Unreliable RS-232 communication:** Implemented dynamic buffering and custom frame validation. Overrode `OnGoodbye` message handling to achieve full-duplex data integrity in noisy shop-floor environments.
+
+- **Undo/Redo user experience:** Built a multi-level command-pattern undo/redo manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
     
   </p>
 
