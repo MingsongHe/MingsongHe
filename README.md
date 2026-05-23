@@ -23,7 +23,7 @@
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
-- **[NC Code Editor & Industrial Communication System](链接)** [Left area is a full-featured NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
+- **[NC Code Editor & Industrial Communication System](链接)** [Left area is a full-featured NC editor, right area for graphics] <img src="[https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg](https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI.jpg)" width="40" alt="UI P01">
   <p>
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
