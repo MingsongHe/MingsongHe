@@ -35,7 +35,7 @@
     
   </p>
 
-  - **[JinRay Test Platform](链接)** [Configurable Multi-Device Test System] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
+- **[JinRay Test Platform](链接)** [Configurable Multi-Device Test System] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Main%20UI%202.jpg" width="40" alt="UI P01">
   <p>
     
   - **Tech Stack:** `Python`, `TwinCAT (ADS)`, `EtherCAT`, `pyads` `RS-232 Serial`, `Multithreading`
