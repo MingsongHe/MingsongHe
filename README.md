@@ -3,10 +3,11 @@
   <p> 
     
   - **Tech Stack:** `C++ (32-bit)`, `Python (32-bit)`, `PyQt`, `LonWorks`, `RS232`
-  - **Key Contributions:**
-    - **Reverse engineering the client's C++ code → protocol:** The client couldn't find the communication protocol from 20 years ago either, so the project was completed by analyzing the C++ code.
-    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. The steps and test pairs can be set arbitrarily. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
-    - **Automated Verification:** Data sampling is completed in the background thread. The pass/fail logic is handled in the foreground, resulting in a complete test report.
+  - **Key Achievement:** Reverse-engineered the Lost LonWorks protocol from legacy c++.Built a .seq-driven test engine replacing a 20-year-old C++ system. 
+  - **Technical Challenges & Solutions:**
+    - **Reverse-engineered legacy protocol** No documentation existed. Analyzed C++ MFC code to infer frame structures (0x80 header, length bytes) and timing. Re-implemented in Python with full hardware and ldv32.dll compatibility.
+    - **.seq-driven test engine:** JSON-based sequence parser converting test steps into executable actions. State machine with step auto_run,enable/disable, pause/resume, and runtime skipping — managed through a dynamic tree UI.
+    - **Hybrid async/sync execution:** Background thread polls 64 AI/AO + 192 DI/DO at 10ms in data buffer. Foreground engine uses QTimer callbacks for hardware loopback validation. The "pass/fail" logic is handled in the foreground, resulting in a complete test report.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
