@@ -50,7 +50,7 @@
 ##### 🚀 Click to expand for more
 
 <details>
-  <summary><b>A-H Monitor</b></summary>
+  <summary><b>A-H Monitor</b>`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`</summary>
   <p>
   
   - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`
