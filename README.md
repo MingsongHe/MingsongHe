@@ -25,6 +25,7 @@
   <p>
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
+  - Reads and parses standard G-code, leveraging underlying linear and circular interpolation algorithms to accurately render real-time toolpath graphics on the UI.
   - **Key Contributions:**
     - **Large-file rendering bottleneck:** Large-file rendering bottleneck: Custom viewport clipping + GDI double-buffering eliminated lag NC code, reducing memory footprint.%.
     - **Reliable RS-232 communication:** Implemented dynamic buffering and custom frame validation. Overrode message handling to achieve full-duplex data integrity in noisy shop-floor environments.
