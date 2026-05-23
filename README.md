@@ -25,11 +25,11 @@
   <p>
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
-  - Reads and parses standard G-code, leveraging underlying linear and circular interpolation algorithms to accurately render real-time toolpath graphics on the UI.
+  - **Core Function:** Reads and parses standard G-code, leveraging underlying linear and circular interpolation algorithms to accurately render real-time toolpath graphics on the UI.
   - **Key Contributions:**
-    - **Large-file rendering bottleneck:** Large-file rendering bottleneck: Custom viewport clipping + GDI double-buffering eliminated lag NC code, reducing memory footprint.%.
-    - **Reliable RS-232 communication:** Implemented dynamic buffering and custom frame validation. Overrode message handling to achieve full-duplex data integrity in noisy shop-floor environments.
-    - **"Undo" user experience:** Built a multi-level command-pattern "undo" manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
+    - **Optimized Large-File Rendering:** Resolved UI lag when handling massive NC code files by implementing custom viewport clipping and GDI double-buffering, significantly reducing CPU usage and memory footprint.
+    - **Reliable RS-232 Communication:** Implemented dynamic buffering and custom frame validation, overriding background message handling to ensure 100% full-duplex data integrity in noisy shop-floor environments.
+    - **Robust "Undo" Mechanism:** Built a multi-level Command-Pattern "Undo" manager from scratch, flawlessly supporting multi-line insert, delete, cut, paste, and modification operations across all editing scenarios.
     
   </p>
 
