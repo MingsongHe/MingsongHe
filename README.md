@@ -27,8 +27,8 @@
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
   - **Key Contributions:**
-    - **Large-file rendering bottleneck:** Custom viewport clipping + GDI double-buffering eliminated lag for 50k+ lines of NC code, reducing memory footprint by 70%.
-    - **Reliable RS-232 communication:** Implemented dynamic buffering and custom frame validation. Overrode `OnGoodbye` message handling to achieve full-duplex data integrity in noisy shop-floor environments.
+    - **Large-file rendering bottleneck:** Large-file rendering bottleneck: Custom viewport clipping + GDI double-buffering eliminated lag NC code, reducing memory footprint.%.
+    - **Reliable RS-232 communication:** Implemented dynamic buffering and custom frame validation. Overrode message handling to achieve full-duplex data integrity in noisy shop-floor environments.
     - **Undo/Redo user experience:** Built a multi-level command-pattern undo/redo manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
     
   </p>
