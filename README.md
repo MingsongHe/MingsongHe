@@ -59,7 +59,7 @@
     - **RS-232 instrument control:** Used NI-VISA to communicate with Agilent vacuum pump over RS-232. Send commands for start, stop, and internal register reset operations.
     - **Real-time status monitoring:** Continuously polls pump status (communication OK, accelerating, start complete) via serial. Displays current state on front panel.
   <br>
-  <img src="https://githubusercontent.com" width="500" alt="System Preview">
+
   </p>
 </details>
 
@@ -67,7 +67,7 @@
   <summary><b>A-H Monitor</b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]</summary>
   <p>
   
-  - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI` <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01">
+  - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI` <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P04.jpg" width="40" alt="UI P01">
   - **Key Technical Highlights:**
     - **Multi-threaded data acquisition:** Dedicated thread reads voltage/current/AH/temperature via serial port at configurable intervals (0.017–3600 sec). Main thread triggers visual/audio alarms when thresholds exceeded.
     - **Flicker-free GDI visualization:** Off-screen DC double-buffering enables smooth real-time plotting. Users can drag the chart area (OnLButtonDown + OnMouseMove) to reposition the waveform overlay.
