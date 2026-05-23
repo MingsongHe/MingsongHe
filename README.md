@@ -50,15 +50,14 @@
 ##### 🚀 Click to expand for more
 
 <details>
-  <summary><b>Hybrid Automation Test Platform (C# / Python / LonWorks)</b></summary>
+  <summary><b>A-H Monitor</b></summary>
   <p>
   
-  - **Tech Stack:** `C# (32-bit)`, `Python (64-bit)`, `LonWorks`, `PyQt`
-  - **Key Contributions:**
-    - **Cross-Architecture Communication:** Resolved interoperability challenges between 32-bit C# (Communication Layer) and 64-bit Python (Logic Layer).
-    - **Modular Configuration:** Implemented `.seq` driven test sequences setting. Drag-and-drop `.ui` interface generation for multiple specifications UUT deployment.
-    - **Automated Validation:** Integrated robust Pass/Fail logic ensuring data consistency and rigorous testing cycles.
-  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+  - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`
+  - **Key Technical Highlights:**
+    - **Multi-threaded data acquisition:** Dedicated thread reads voltage/current/AH/temperature via serial port at configurable intervals (0.017–3600 sec). Main thread triggers visual/audio alarms when thresholds exceeded.
+    - **Flicker-free GDI visualization:** Off-screen DC double-buffering enables smooth real-time plotting. Users can drag the chart area (OnLButtonDown + OnMouseMove) to reposition the waveform overlay.
+    - **Persistent configuration:** All alarm limits, baud rates, parity, handshaking modes saved to Windows registry via CWinApp::WriteProfileInt/String — auto-loaded on startup.
   <br>
   <img src="https://githubusercontent.com" width="500" alt="System Preview">
   </p>
