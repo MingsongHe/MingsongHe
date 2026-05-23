@@ -73,7 +73,7 @@
     - **Flicker-free GDI visualization:** Off-screen DC double-buffering enables smooth real-time plotting. Users can drag the chart area (OnLButtonDown + OnMouseMove) to reposition the waveform overlay.
     - **Persistent configuration:** All alarm limits, baud rates, parity, handshaking modes saved to Windows registry via CWinApp::WriteProfileInt/String — auto-loaded on startup.
   <br>
-  <img src="https://githubusercontent.com" width="500" alt="System Preview">
+  <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Data%20Page.jpg" width="40" alt="UI P01">
   </p>
 </details>
 
