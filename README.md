@@ -24,7 +24,6 @@
     
   </p>
 - **[NC Code Editor & Industrial Communication System ▶️](https://youtu.be/unWmW1wtoxw)** [Left area is a full-featured NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P01.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P02.jpg" width="40" alt="UI P01">
-（(Ctrl+Click to open in new tab)）
   <p>
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
