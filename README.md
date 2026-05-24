@@ -23,7 +23,7 @@
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
-- **[NC Code Editor & Industrial Communication System ▶️](https://youtu.be/unWmW1wtoxw)** [Left area is a full-featured NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P01.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P02.jpg" width="40" alt="UI P01">
+- **[NC Code Editor & Industrial Communication System](https://youtu.be)** <a href="https://youtu.be" target="_blank" rel="noopener noreferrer"><img src="https://shields.io" alt="Watch Video" valign="middle"></a> [Left area is a full-featured NC editor, right area for graphics] <img src="https://githubusercontent.com" width="40" alt="UI P01"><img src="https://githubusercontent.com" width="40" alt="UI P01">
   <p>
     
   - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
