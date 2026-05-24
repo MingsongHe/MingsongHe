@@ -62,8 +62,7 @@
 </details>
 
 <details>
-  <summary><b>A-H Monitor ▶️</b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]</summary>
-  
+  <summary><b><a href="https://youtu.be/Ng6qhnX2WXk">A-H Monitor ▶️</a></b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]</summary>
   <p>
   
   - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI` <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P04.jpg" width="40" alt="UI P01">
