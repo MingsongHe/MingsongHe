@@ -21,7 +21,6 @@
     - **Dual-thread acquisition:** The data read/write thread processes data using Ethercat/LonWorks and PCBA, while the detector thread reads helium detector data at a frequency of 4Hz via RS-232. The main thread plots real-time trend graphs, controls test procedures, and determines Pass/Fail" and Generates Excel (trend charts + screenshots), HTML, and XML Multi-format report
     - **Modular Configuration:** The program's .ui editor supports drag-and-drop .ui interface generation, intelligent parameter configuration, and facilitates the deployment of various specifications of devices under test, including "Pallet Test" and "Final Test".
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
-  - 
   </p>
 - **[NC Code Editor & Industrial Communication System ▶️](https://youtu.be/_G05MGl8mwA)** [Left area is a full-featured NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P01.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P02.jpg" width="40" alt="UI P01">
   <p>
