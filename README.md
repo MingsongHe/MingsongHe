@@ -14,7 +14,7 @@
 - **[Universal Leak Tester](链接)** [Hybrid Automation Test Platform]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Univsal%20Leak%20Tester%20Report.jpg" height="30" alt="UI P01">                      <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Univsal%20Leak%20Tester%20seq%20Flow.jpg" height="30" alt="UI P01">
   <p>
     
-  - **Tech Stack:** `Python`, `C#`, `LonWorks`, `TwinCAT`, `EtherCAT`, `RS232`, `Named Pipe` <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Univsal%20Leak%20Tester%20Report.jpg" height="30" alt="UI P01">
+  - **Tech Stack:** `Python`, `C#`, `LonWorks`, `TwinCAT`, `EtherCAT`, `RS232`, `Named Pipe`
   - **Key Achievement:** Built a .seq-driven test engine with conditional branching (IF/ELSE/Interrupt). The 64-bit Python directly handles Ethercat communication' PCBA, while the 32-bit C# handles Lonworks communication' PCBA via adv32.dll and Name pipe.
   - **Technical Challenges & Solutions:**
     - **Conditional test flow engine:** Extended .seq JSON format with IF/ELSE, Interrupt, and Check points. Evaluates string/numeric/bool conditions in real-time, dynamically skipping or executing step blocks — enabling adaptive flows based on leak rate thresholds or detector status.
@@ -46,7 +46,7 @@
     
   </p>
 
-- **[<b>Agilent Vacuum Pump Controller</b> [`LabVIEW`, `VISA`, `RS-232`, `State Machine`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Pump%20Contoller%20V1.0%20Main%20UI.jpg" width="40" alt="UI P01">**
+- **[Agilent Vacuum Pump Controller](链接)** [`LabVIEW`, `VISA`, `RS-232`, `State Machine`] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Pump%20Contoller%20V1.0%20Main%20UI.jpg" width="40" alt="UI P01">**
   <p>
     
   - **Tech Stack:**  `LabVIEW`, `VISA`, `RS-232`, `State Machine`
