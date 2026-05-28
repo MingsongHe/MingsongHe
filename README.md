@@ -68,13 +68,4 @@
 
   </p>
 
-  - **[Flow Monitor](链接)** [Sampling and control within a local area network] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Flow%20Monitor%20Working%20in%20Server.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Flow%20Monitor%20Working%20in%20Client.jpg" width="40" alt="UI P01">
-  <p>
-    
-  - **Tech Stack:**  `Python`, `TwinCAT`, `EtherCAT`, `TPC/IP`
-  - **Key Technical Highlights:**
-    - **State machine architecture:** Implemented LabVIEW state machine with states: Init → Start → Stop → Reset → Status Monitoring. Ensures deterministic transitions and robust error handling.
-    - **RS-232 instrument control:** Used NI-VISA to communicate with Agilent vacuum pump over RS-232. Send commands for start, stop, and internal register reset operations.
-    - **Real-time status monitoring:** Continuously polls pump status (communication OK, accelerating, start complete) via serial. Displays current state on front panel.
-
-  </p>
+  
