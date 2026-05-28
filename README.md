@@ -60,11 +60,11 @@
 - **[<b>Agilent Vacuum Pump Controller<a href="https://youtu.be/Ng6qhnX2WXk">A-H Monitor ▶️</a></b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P04.jpg" width="40" alt="UI P01">**
   <p>
     
-  - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`
+  - **Tech Stack:**  `LabVIEW`, `VISA`, `RS-232`, `State Machine`
   - **Key Technical Highlights:**
-    - **Multi-threaded data acquisition:** Dedicated thread reads voltage/current/AH/temperature via serial port at configurable intervals (0.017–3600 sec). Main thread triggers visual/audio alarms when thresholds exceeded.
-    - **Flicker-free GDI visualization:** Off-screen DC double-buffering enables smooth real-time plotting. Users can drag the chart area (OnLButtonDown + OnMouseMove) to reposition the waveform overlay.
-    - **Persistent configuration:** All alarm limits, baud rates, parity, handshaking modes saved to Windows registry via CWinApp::WriteProfileInt/String — auto-loaded on startup.
+    - **State machine architecture:** Implemented LabVIEW state machine with states: Init → Start → Stop → Reset → Status Monitoring. Ensures deterministic transitions and robust error handling.
+    - **RS-232 instrument control:** Used NI-VISA to communicate with Agilent vacuum pump over RS-232. Send commands for start, stop, and internal register reset operations.
+    - **Real-time status monitoring:** Continuously polls pump status (communication OK, accelerating, start complete) via serial. Displays current state on front panel.
 
   </p>
 
