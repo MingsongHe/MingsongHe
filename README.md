@@ -46,7 +46,7 @@
     
   </p>
 
-  - **[JinRay Test Platform](链接)** [<b>Agilent Vacuum Pump Controller</b>[`LabVIEW`, `VISA`, `RS-232`, `State Machine`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Pump%20Contoller%20V1.0%20Main%20UI.jpg" width="40" alt="UI P01">
+  - **[JinRay Test Platform](链接)** <b>Agilent Vacuum Pump Controller</b>[`LabVIEW`, `VISA`, `RS-232`, `State Machine`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Pump%20Contoller%20V1.0%20Main%20UI.jpg" width="40" alt="UI P01">
   <p>
   
   - **Tech Stack:** `LabVIEW`, `VISA`, `RS-232`, `State Machine`
