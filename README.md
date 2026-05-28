@@ -46,10 +46,9 @@
     
   </p>
 
-##### 🚀 Click to expand for more
+##### 🚀 
 
-<details>
-  <summary><b>Agilent Vacuum Pump Controller</b>[`LabVIEW`, `VISA`, `RS-232`, `State Machine`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Pump%20Contoller%20V1.0%20Main%20UI.jpg" width="40" alt="UI P01"></summary>
+  - **[<b>Agilent Vacuum Pump Controller</b>[`LabVIEW`, `VISA`, `RS-232`, `State Machine`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Pump%20Contoller%20V1.0%20Main%20UI.jpg" width="40" alt="UI P01">**
   <p>
   
   - **Tech Stack:** `LabVIEW`, `VISA`, `RS-232`, `State Machine`
@@ -59,7 +58,6 @@
     - **Real-time status monitoring:** Continuously polls pump status (communication OK, accelerating, start complete) via serial. Displays current state on front panel.
 
   </p>
-</details>
 
 <details>
   <summary><b><a href="https://youtu.be/Ng6qhnX2WXk">A-H Monitor ▶️</a></b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P04.jpg" width="40" alt="UI P01"></summary>
