@@ -46,8 +46,6 @@
     
   </p>
 
-##### 🚀 
-
   - **[<b>Agilent Vacuum Pump Controller</b>[`LabVIEW`, `VISA`, `RS-232`, `State Machine`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Pump%20Contoller%20V1.0%20Main%20UI.jpg" width="40" alt="UI P01">**
   <p>
   
@@ -59,9 +57,7 @@
 
   </p>
 
-<details>
-  <summary><b><a href="https://youtu.be/Ng6qhnX2WXk">A-H Monitor ▶️</a></b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P04.jpg" width="40" alt="UI P01"></summary>
-  <p>
+- **[<b><a href="https://youtu.be/Ng6qhnX2WXk">A-H Monitor ▶️</a></b> [`C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`]<img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P02.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/A-H%20Monitor%20P04.jpg" width="40" alt="UI P01">**
   
   - **Tech Stack:** `C++`, `MFC`, `Win32 API`, `Multithreading`, `GDI`
   - **Key Technical Highlights:**
@@ -70,4 +66,3 @@
     - **Persistent configuration:** All alarm limits, baud rates, parity, handshaking modes saved to Windows registry via CWinApp::WriteProfileInt/String — auto-loaded on startup.
 
   </p>
-</details>
