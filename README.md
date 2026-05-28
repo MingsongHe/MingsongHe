@@ -34,7 +34,7 @@
     
   </p>
 
-- **[JinRay Test Platform](链接)** [Configurable Multi-Device Test System] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20P-ID%20Window.jpg" height="30" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20ui%20Editor%20Working%20Process.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20ui%20Editor%20Working%20Process%20P02.jpg" width="40" alt="UI P01">
+- **[JinRay Test Platform](链接)** [Configurable Multi-Device Test System] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20P-ID%20Window.jpg" height="30" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20ui%20Editor%20Working%20Process%20P02.jpg" width="40" alt="UI P01">
   <p>
     
   - **Tech Stack:** `Python`, `TwinCAT (ADS)`, `EtherCAT`, `pyads` `RS-232 Serial`, `Multithreading`
