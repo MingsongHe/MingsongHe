@@ -17,13 +17,13 @@
   - **Tech Stack:** `Python`, `C#`, `LonWorks`, `TwinCAT`, `EtherCAT`, `RS232`, `Named Pipe`
   - **Key Achievement:** Built a .seq-driven test engine with conditional branching (IF/ELSE/Interrupt). The 64-bit Python directly handles Ethercat communication' PCBA, while the 32-bit C# handles Lonworks communication' PCBA via adv32.dll and Named pipe.
   - **Technical Challenges & Solutions:**
-    - **Designed a mission-critical .seq-driven leak testing platform:**  JSON parser converts test steps into executable operations; supports auto-execution, conditional branching (if/else/interrupts/checkpoints), Information Prompts，dynamic leak threshold evaluation and flow jumps; managed via dynamic tree UI for intuitive tests step state visualization.
-    - **Multi-threaded Data Interaction:**
+  - **Designed a mission-critical .seq-driven leak testing platform:**  JSON parser converts test steps into executable operations; supports auto-execution, conditional branching (if/else/interrupts/checkpoints), Information Prompts，dynamic leak threshold evaluation and flow jumps; managed via dynamic tree UI for intuitive tests step state visualization.
+  - **Multi-threaded Data Interaction:**
            -   1)EtherCAT UUTs: data read/write uses Beckhoff TwinCAT's ADS protocol, handled by a background Python thread.
            -   2)Lonworks UUTs: a C# background process communicates with PCBA via ldv32.dll (32-bit) and with the Python main program via Named Pipe.
            -   3)Helium detector: a background thread reads detector data at 4Hz via RS-232.
 
-    - **Main Thread:** Manages the main UI and test windows, loads .seq files per test type (Pallet Test / Final Test), plots real-time data, and controls test flow based on .seq execution. Automatically generates comprehensive compliance reports in Excel, HTML, and XML formats, including real-time trend charts, UI screenshots, and raw data summaries, with pass/fail determination.
+  - **Main Thread:** Manages the main UI and test windows, loads .seq files per test type (Pallet Test / Final Test), plots real-time data, and controls test flow based on .seq execution. Automatically generates comprehensive compliance reports in Excel, HTML, and XML formats, including real-time trend charts, UI screenshots, and raw data summaries, with pass/fail determination.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
   </p>
 
@@ -38,6 +38,7 @@
     - **The .seq-based test engine features:** A high-performance JSON-based sequence parsing engine employing an advanced Finite State Machine (FSM);  
 supporting automatic execution, conditional branching (if/else/interruption/checkpointing),information prompts, dynamic leak threshold assessment, and flow jumps; managed through a dynamic tree-structured UI for intuitive visualization of test step states.
     - **Cross-type I/O handling:** Unified signal system dispatches 9 PLC data types (USINT/UINT/UDINT/INT/DINT/REAL/BOOL/INT24) to appropriate UI widgets. Special conversions for NI-9220 (±10V scaling) and NI-9208 (24-bit to 20mA).
+    - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
 
