@@ -19,6 +19,7 @@
   - **Technical Challenges & Solutions:**
   - **Designed a mission-critical .seq-driven leak testing platform:**  JSON parser converts test steps into executable operations; supports auto-execution, conditional branching (if/else/interrupts/checkpoints), Information Prompts，dynamic leak threshold evaluation and flow jumps; managed via dynamic tree UI for intuitive tests step state visualization.
   - **Multi-threaded Data Interaction:**
+  - 1)EtherCAT UUTs: data read/write uses Beckhoff TwinCAT's ADS protocol, handled by a background Python thread.
            -   1)EtherCAT UUTs: data read/write uses Beckhoff TwinCAT's ADS protocol, handled by a background Python thread.
            -   2)Lonworks UUTs: a C# background process communicates with PCBA via ldv32.dll (32-bit) and with the Python main program via Named Pipe.
            -   3)Helium detector: a background thread reads detector data at 4Hz via RS-232.
