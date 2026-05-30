@@ -32,10 +32,11 @@
   <p>
     
   - **Tech Stack:** `Python`, `TwinCAT (ADS)`, `EtherCAT`, `pyads` `RS-232 Serial`, `Multithreading`
-  - **Key Achievement:** Built a drag-and-drop UI editor allowing operators to configure valves, MFCs, LEDs, and I/O channels without code changes — enabling a single platform to test multiple device variants.
+  - **Key Achievement:**Architected and delivered a fully decoupled, hardware-agnostic multi-device testing platform that empowers operators to dynamically configure valves,MFCs,LEDs, pressure sensor and I/O channels via a visual UI, successfully scaling a single software framework to support diverse device ,complete different testing processes variants without code modifications.
   - **Technical Challenges & Solutions:**
-    - **Visual UI editor for test configuration:** Implemented drag-and-drop editor where users place Valve/MFC/LED widgets onto a background schematic. Widgets save position, object name, and display label to JSON — regenerated on load. Supports big-picture mode with scrollable background.
-    - **Hardware-agnostic channel mapping:** Each widget binds to a PLC variable name via dropdown populated from Excel config. Used object name tracking to prevent duplicate assignments. Same platform adapts to different UUTs by swapping UI files.
+    - **Visual UI editor for test configuration:** Engineered a highly intuitive Visual UI Editor enabling drag-and-drop orchestration of industrial widgets onto a background schematic,compiled and serialized into a custom runtime .ui file,（widgets save position, object name, and display label to JSON ） schema for instantaneous layout regeneration.Each widget binds to a component variable name via  dropdown populated from Excel config.linking UI widgets dynamically to variables, object-name collision detection to ensure zero-duplicate channel assignments.
+    - **The .seq-based test engine features:** A high-performance JSON-based sequence parsing engine employing an advanced Finite State Machine (FSM);  
+supporting automatic execution, conditional branching (if/else/interruption/checkpointing),information prompts, dynamic leak threshold assessment, and flow jumps; managed through a dynamic tree-structured UI for intuitive visualization of test step states.
     - **Cross-type I/O handling:** Unified signal system dispatches 9 PLC data types (USINT/UINT/UDINT/INT/DINT/REAL/BOOL/INT24) to appropriate UI widgets. Special conversions for NI-9220 (±10V scaling) and NI-9208 (24-bit to 20mA).
     
   </p>
