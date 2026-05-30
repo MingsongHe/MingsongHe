@@ -26,17 +26,7 @@
     - **Main Thread:** Manages the main UI and test windows, loads .seq files per test type (Pallet Test / Final Test), plots real-time data, and controls test flow based on .seq execution. Automatically generates comprehensive compliance reports in Excel, HTML, and XML formats, including real-time trend charts, UI screenshots, and raw data summaries, with pass/fail determination.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
   </p>
-- **[NC Code Editor & Industrial Communication System ▶️](https://youtu.be/_G05MGl8mwA)** [Left area is a NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P01.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P02.jpg" width="40" alt="UI P01">
-  <p>
-    
-  - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
-  - **Core Function:** Reads and parses standard G-code, leveraging underlying linear and circular interpolation algorithms to accurately render real-time toolpath graphics on the UI.
-  - **Key Contributions:**
-    - **Optimized Large-File Rendering:** Resolved UI lag when handling massive NC code files by implementing custom viewport clipping and GDI double-buffering, significantly reducing CPU usage and memory footprint.
-    - **Reliable RS-232 Communication:** Implemented dynamic buffering and custom frame validation, overriding background message handling to ensure full-duplex data integrity in noisy shop-floor environments.
-    - **Robust "Undo" Mechanism:** Built a multi-level command-pattern undo/redo manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
-    
-  </p>
+
 
 - **[JinRay Test Platform](链接)** [Configurable Multi-Device Test System] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20Main%20UI.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20P-ID%20Window.jpg" height="30" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20P03.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/JinRay%20Test%20Platform%20ui%20Editor%20Working%20Process%20P02.jpg" width="40" alt="UI P01">
   <p>
@@ -47,6 +37,19 @@
     - **Visual UI editor for test configuration:** Implemented drag-and-drop editor where users place Valve/MFC/LED widgets onto a background schematic. Widgets save position, object name, and display label to JSON — regenerated on load. Supports big-picture mode with scrollable background.
     - **Hardware-agnostic channel mapping:** Each widget binds to a PLC variable name via dropdown populated from Excel config. Used object name tracking to prevent duplicate assignments. Same platform adapts to different UUTs by swapping UI files.
     - **Cross-type I/O handling:** Unified signal system dispatches 9 PLC data types (USINT/UINT/UDINT/INT/DINT/REAL/BOOL/INT24) to appropriate UI widgets. Special conversions for NI-9220 (±10V scaling) and NI-9208 (24-bit to 20mA).
+    
+  </p>
+
+  
+- **[NC Code Editor & Industrial Communication System ▶️](https://youtu.be/_G05MGl8mwA)** [Left area is a NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P01.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P02.jpg" width="40" alt="UI P01">
+  <p>
+    
+  - **Tech Stack:** `C++ (MFC)`, `Win32 API`, `RS-232 Serial`, `Multithreading`, `GDI`
+  - **Core Function:** Reads and parses standard G-code, leveraging underlying linear and circular interpolation algorithms to accurately render real-time toolpath graphics on the UI.
+  - **Key Contributions:**
+    - **Optimized Large-File Rendering:** Resolved UI lag when handling massive NC code files by implementing custom viewport clipping and GDI double-buffering, significantly reducing CPU usage and memory footprint.
+    - **Reliable RS-232 Communication:** Implemented dynamic buffering and custom frame validation, overriding background message handling to ensure full-duplex data integrity in noisy shop-floor environments.
+    - **Robust "Undo" Mechanism:** Built a multi-level command-pattern undo/redo manager supporting insert, delete, cut, paste, and modify operations across all edit scenarios.
     
   </p>
 
