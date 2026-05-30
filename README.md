@@ -3,11 +3,11 @@
   <p> 
     
   - **Tech Stack:** `C++ (32-bit)`, `Python (32-bit)`, `PyQt`, `LonWorks`, `RS232`
-  - **Key Achievement:** Reverse-engineered the Lost LonWorks protocol from legacy c++.Built a .seq-driven test engine replacing a 20-year-old C++ system. 
+  - **Key Achievement:** Successfully spearheaded the modernization of a 20-year-old monolithic C++ test system, engineering a modern, sequence-drive (.seq) hybrid automation testing platform that achieved full compatibility with legacy hardware wrappers.
   - **Technical Challenges & Solutions:**
-  - **Reverse-engineered legacy protocol:** No documentation existed. Analyzed C++ MFC code to infer frame structures (0x80 header, length bytes) and timing. Re-implemented in Python with full hardware and ldv32.dll compatibility.
-    - **.seq-driven test engine:** JSON-based sequence parser converting test steps into executable actions. State machine with test auto_run,and test step enable/disable, pause/resume, and runtime skipping — managed through a dynamic tree UI.
-    - **Hybrid async/sync execution:** Background thread polls 64 AI/AO + 192 DI/DO at 10ms in data buffer. Foreground engine uses QTimer callbacks for hardware loopback validation. The "pass/fail" logic is handled in the foreground, resulting in a complete test report.
+  - **Reverse-engineered legacy protocol:** Executed black-box and white-box reverse-engineering on the losted proprietary, LonWorks communication protocol,meticulously analyzed legacy C++ MFC source code to decipher complex frame structures (0x80 headers, variable length bytes) and precise hardware timing constraints.Re-implemented the protocol stack in Python with seamless integration of legacy 32-bit Win32 APIs (ldv32.dll), ensuring data integrity and backward hardware compatibility without original technical documentation.
+    - **.seq-driven test engine:** Developed a high-performance JSON-based sequence parsing engine featuring an advanced finite state machine (FSM) that supports runtime execution control, including real-time test step enabling/disabling, pause/resume, and dynamic step skipping managed through a hierarchical tree UI.Designed a deterministic hybrid sync/async execution architecture to handle massive concurrent I/O.The "pass/fail" logic is handled in the foreground, resulting in a complete test report.
+    - **Hybrid async/sync execution:** Engineered a high-frequency background polling thread to buffer data from 64 AI/AO + 192 DI/DO channels at a strict 25ms interval.Utilized optimized foreground QTimer event callbacks for asynchronous hardware loopback validation, decoupling intense data acquisition from the UI to deliver zero-lag performance and comprehensive test analytics.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
