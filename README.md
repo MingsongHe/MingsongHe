@@ -42,7 +42,7 @@ supporting automatic execution, conditional branching (if/else/interruption/chec
     
   </p>
 
-  
+
 - **[NC Code Editor & Industrial Communication System ▶️](https://youtu.be/_G05MGl8mwA)** [Left area is a NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P01.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P02.jpg" width="40" alt="UI P01">
   <p>
     
