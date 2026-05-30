@@ -15,11 +15,14 @@
   <p>
     
   - **Tech Stack:** `Python`, `C#`, `LonWorks`, `TwinCAT`, `EtherCAT`, `RS232`, `Named Pipe`
-  - **Key Achievement:** Built a .seq-driven test engine with conditional branching (IF/ELSE/Interrupt). The 64-bit Python directly handles Ethercat communication' PCBA, while the 32-bit C# handles Lonworks communication' PCBA via adv32.dll and Name pipe.
+  - **Key Achievement:** Built a .seq-driven test engine with conditional branching (IF/ELSE/Interrupt). The 64-bit Python directly handles Ethercat communication' PCBA, while the 32-bit C# handles Lonworks communication' PCBA via adv32.dll and Named pipe.
   - **Technical Challenges & Solutions:**
-    - **Conditional test flow engine:** Extended .seq JSON format with IF/ELSE, Interrupt, and Check points. Evaluates string/numeric/bool conditions in real-time, dynamically skipping or executing step blocks — enabling adaptive flows based on leak rate thresholds or detector status.
-    - **Dual-thread acquisition:** The data read/write thread processes data using Ethercat/LonWorks and PCBA, while the detector thread reads helium detector data at a frequency of 4Hz via RS-232. The main thread plots real-time trend graphs, controls test procedures, and determines Pass/Fail" and Generates Excel (trend charts + screenshots), HTML, and XML Multi-format report
-    - **Modular Configuration:** The program's .ui editor supports drag-and-drop .ui interface generation, intelligent parameter configuration, and facilitates the deployment of various specifications of devices under test, including "Pallet Test" and "Final Test".
+    - **Designed a mission-critical .seq-driven leak testing platform:**  JSON parser converts test steps into executable operations; supports auto-execution, conditional branching (if/else/interrupts/checkpoints), Information Prompts，dynamic leak threshold evaluation and flow jumps; managed via dynamic tree UI for intuitive tests step state visualization.
+    - **Multi-threaded Data Interaction:** 
+·EtherCAT UUTs: data read/write uses Beckhoff TwinCAT's ADS protocol, handled by a background Python thread.
+·Lonworks UUTs: a C# background process communicates with PCBA via ldv32.dll (32-bit) and with the Python main program via Named Pipe.
+·Helium detector: a background thread reads detector data at 4Hz via RS-232.
+    - **Main Thread:** Manages the main UI and test windows, loads .seq files per test type (Pallet Test / Final Test), plots real-time data, and controls test flow based on .seq execution. Automatically generates comprehensive compliance reports in Excel, HTML, and XML formats, including real-time trend charts, UI screenshots, and raw data summaries, with pass/fail determination.
   - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
   </p>
 - **[NC Code Editor & Industrial Communication System ▶️](https://youtu.be/_G05MGl8mwA)** [Left area is a NC editor, right area for graphics] <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P01.jpg" width="40" alt="UI P01"><img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Data%20Editor%20Main%20UI%20P02.jpg" width="40" alt="UI P01">
