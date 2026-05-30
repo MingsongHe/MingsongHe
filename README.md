@@ -17,7 +17,7 @@
   - **Tech Stack:** `Python`, `C#`, `LonWorks`, `TwinCAT`, `EtherCAT`, `RS232`, `Named Pipe`
   - **Key Achievement:** Built a .seq-driven test engine with conditional branching (IF/ELSE/Interrupt). The 64-bit Python directly handles Ethercat communication' PCBA, while the 32-bit C# handles Lonworks communication' PCBA via adv32.dll and Named pipe.
   - **Technical Challenges & Solutions:**
-  - **Designed a mission-critical .seq-driven leak testing platform:** JSON parser converts test steps into executable operations; supports auto-execution, conditional branching (if/else/interrupts/checkpoints), Information Prompts，dynamic leak threshold evaluation and flow jumps; managed via dynamic tree UI for intuitive tests step state visualization.
+  - **Designed a mission-critical  .seq-driven leak testing platform:** JSON parser converts test steps into executable operations; supports auto-execution, conditional branching (if/else/interrupts/checkpoints), Information Prompts，dynamic leak threshold evaluation and flow jumps; managed via dynamic tree UI for intuitive tests step state visualization.
   - **Multi-threaded Data Interaction:**
            -   1)EtherCAT UUTs: data read/write uses Beckhoff TwinCAT's ADS protocol, handled by a background Python thread.
            -   2)Lonworks UUTs: a C# background process communicates with PCBA via ldv32.dll (32-bit) and with the Python main program via Named Pipe.
