@@ -8,7 +8,7 @@
     - **Reverse-engineered legacy protocol:** Executed black-box and white-box reverse-engineering on the losted proprietary, LonWorks communication protocol,meticulously analyzed legacy C++ MFC source code to decipher complex frame structures (0x80 headers, variable length bytes) and precise hardware timing constraints.Re-implemented the protocol stack in Python with seamless integration of legacy 32-bit Win32 APIs (ldv32.dll), ensuring data integrity and backward hardware compatibility without original technical documentation.
     - **.seq-driven test engine:** Developed a high-performance JSON-based sequence parsing engine featuring an advanced finite state machine (FSM) that supports runtime execution control, including real-time test step enabling/disabling, pause/resume, and dynamic step skipping managed through a hierarchical tree UI.Designed a deterministic hybrid sync/async execution architecture to handle massive concurrent I/O.The "pass/fail" logic is handled in the foreground, resulting in a complete test report.
     - **Hybrid async/sync execution:** Engineered a high-frequency background polling thread to buffer data from 64 AI/AO + 192 DI/DO channels at a strict 25ms interval.Utilized optimized foreground QTimer event callbacks for asynchronous hardware loopback validation, decoupling intense data acquisition from the UI to deliver zero-lag performance and comprehensive test analytics.
- - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
 - **[Universal Leak Tester](链接)** [Hybrid Automation Test Platform]- <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Univsal%20Leak%20Tester%20Report.jpg" height="30" alt="UI P01">                      <img src="https://raw.githubusercontent.com/MingsongHe/MingsongHe/refs/heads/main/Univsal%20Leak%20Tester%20seq%20Flow.jpg" height="30" alt="UI P01">
@@ -24,7 +24,7 @@
       - 3)Helium detector: a background thread reads detector data at 4Hz via RS-232.
 
     - **Main Thread:** Manages the main UI and test windows, loads .seq files per test type (Pallet Test / Final Test), plots real-time data, and controls test flow based on .seq execution. Automatically generates comprehensive compliance reports in Excel, HTML, and XML formats, including real-time trend charts, UI screenshots, and raw data summaries, with pass/fail determination.
- - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
   </p>
 
 
@@ -38,7 +38,7 @@
     - **The .seq-based test engine features:** A high-performance JSON-based sequence parsing engine employing an advanced Finite State Machine (FSM);  
 supporting automatic execution, conditional branching (if/else/interruption/checkpointing),information prompts, dynamic leak threshold assessment, and flow jumps; managed through a dynamic tree-structured UI for intuitive visualization of test step states.
     - **Cross-type I/O handling:** Unified signal system dispatches 9 PLC data types (USINT/UINT/UDINT/INT/DINT/REAL/BOOL/INT24) to appropriate UI widgets. Special conversions for NI-9220 (±10V scaling) and NI-9208 (24-bit to 20mA).
- - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
+  - **Note:** *Due to NDA, only high-level architecture and core metrics are disclosed.*
     
   </p>
 
